@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
 # Load dataset
-df = pd.read_csv("dataset/Students Social Media Addiction.csv")
+df = pd.read_csv("Students Social Media Addiction.csv")
 
 # Addiction label function
 def addiction_label(score):
